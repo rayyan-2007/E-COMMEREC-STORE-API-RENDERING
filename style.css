@@ -14,8 +14,6 @@ h1{
     font-family:'Courier New', Courier, monospace;
     color:lavenderblush;
     font-weight: medium;
-    position: relative;
-    bottom: 45px;
 }
 
 .search-bar{
@@ -120,19 +118,18 @@ p{
 
 
 .nav-bar{
+    display: flex;
     background-color: plum;
-    width: 100vw;
+    width: 100vw auto;
     height: 50px;
-    position: relative;
+    justify-content:space-between;
+    align-items: center;
     
 }
 
 .logo{
     font-size: 33px;
     color: lavenderblush;
-    position: relative;;
-    left: 10px;
-    top: 7px;
     
 }
 
@@ -142,160 +139,49 @@ p{
 }
 
 .login{
-    position: relative;
-    left: 90vw;
-    bottom: 102px;
     background-color: lavenderblush;
     color: plum;
     border-radius: 35px;
+    width: 100px;
+    background-color: lavenderblush;
 }
 
 
-@media(max-width:1050px){
-    .nav-bar{
-        width: 100% auto;
-        overflow: auto;
-    }
-    .login{
-          left: 88vw;
-    }
+@media(max-width:824px){
     h1{
-        text-align: center;
-    }
-    .logo{
-        left: 9px;
+         font-size: 30px;
+          text-align:center ;
     }
     
 }
 
 
-@media(max-width:926px){
-    .nav-bar{
-        width: 100% auto;
-        overflow: auto;
-    }
-    .login{
-          left: 86vw;
-    }
+@media(max-width:600px){
     h1{
-        text-align: center;
-    }
-    .logo{
-        left: 8px;
+         font-size: 28px;
+         text-align:center ;
     }
     
 }
 
-
-
-@media(max-width:807px){
-    .nav-bar{
-        width: 100% auto;
+@media(max-width:540px){
+    h1{
+         font-size: 24px;
+          text-align:center ;
     }
     .login{
-          left: 84vw;
-    }
-    h1{
-        text-align: center;
-    }
-    .logo{
-        left: 7px;
+        width: 90px;
     }
     
 }
 
-
-@media(max-width:690px){
-    .nav-bar{
-        width: 100% auto;
+@media(max-width:500px){
+    h1{
+         font-size: 22px;
+          text-align:center ;
     }
     .login{
-          left: 82vw;
-    }
-    h1{
-        text-align: center;
-    }
-    .logo{
-        left: 6px;
-    }
-    
-}
-
-
-
-
-@media(max-width:609px){
-    .nav-bar{
-        width: 100% auto;
-    }
-    .login{
-          left: 82vw;
-          width: 90px;
-    }
-    h1{
-        text-align: center;
-    }
-    .logo{
-        left: 5px;
-    }
-}
-
-
-@media(max-width:609px){
-    .nav-bar{
-        width: 100% auto;
-    }
-    .login{
-          left: 81vw;
-          width: 86px;
-    }
-    h1{
-        text-align: center;
-    }
-    .logo{
-        left: 4px;
-    }
-    
-}
-
-
-
-@media(max-width:483px){
-    .nav-bar{
-        width: 100% auto;
-    }
-    .login{
-          left: 80vw;
-          width: 75px;
-    }
-    h1{
-        font-size: 26px;
-        text-align: center;
-    }
-    .logo{
-        left: 3px;
-    }
-    
-}
-
-
-
-@media(max-width:462px){
-    .nav-bar{
-        width: 100% auto;
-
-    }
-    .login{
-          left: 79vw;
-          width: 66px;
-          bottom: 96px;
-    }
-    h1{
-        font-size: 22px;
-        text-align: center;
-    }
-    .logo{
-        left: 2px;
+        width: 78px;
     }
     
 }
