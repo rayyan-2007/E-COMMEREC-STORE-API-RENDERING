@@ -152,6 +152,9 @@ p{
          font-size: 30px;
           text-align:center ;
     }
+    .search{
+        width: 80%;
+    }
     
 }
 
@@ -161,6 +164,10 @@ p{
          font-size: 28px;
          text-align:center ;
     }
+     .search{
+        width: 80%;
+    }
+    
     
 }
 
@@ -172,6 +179,10 @@ p{
     .login{
         width: 90px;
     }
+     .search{
+        width: 80%;
+    }
+    
     
 }
 
@@ -183,5 +194,9 @@ p{
     .login{
         width: 78px;
     }
+     .search{
+        width: 80%;
+    }
+    
     
 }
