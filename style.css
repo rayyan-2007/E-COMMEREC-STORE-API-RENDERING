@@ -159,6 +159,12 @@ p{
     .login{
           left: 88vw;
     }
+    h1{
+        text-align: center;
+    }
+    .logo{
+        left: 9px;
+    }
     
 }
 
@@ -170,6 +176,12 @@ p{
     }
     .login{
           left: 86vw;
+    }
+    h1{
+        text-align: center;
+    }
+    .logo{
+        left: 8px;
     }
     
 }
@@ -183,6 +195,12 @@ p{
     .login{
           left: 84vw;
     }
+    h1{
+        text-align: center;
+    }
+    .logo{
+        left: 7px;
+    }
     
 }
 
@@ -193,6 +211,12 @@ p{
     }
     .login{
           left: 82vw;
+    }
+    h1{
+        text-align: center;
+    }
+    .logo{
+        left: 6px;
     }
     
 }
@@ -208,7 +232,12 @@ p{
           left: 82vw;
           width: 90px;
     }
-    
+    h1{
+        text-align: center;
+    }
+    .logo{
+        left: 5px;
+    }
 }
 
 
@@ -222,6 +251,9 @@ p{
     }
     h1{
         text-align: center;
+    }
+    .logo{
+        left: 4px;
     }
     
 }
@@ -237,8 +269,11 @@ p{
           width: 75px;
     }
     h1{
-        font-size: 30px;
+        font-size: 26px;
         text-align: center;
+    }
+    .logo{
+        left: 3px;
     }
     
 }
@@ -256,8 +291,11 @@ p{
           bottom: 96px;
     }
     h1{
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
+    }
+    .logo{
+        left: 2px;
     }
     
 }
